@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.chen.marcus.test">
+    <uses-sdk android:minSdkVersion="19"/>
+    <instrumentation android:targetPackage="org.chen.marcus" android:name="android.test.InstrumentationTestRunner"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <uses-library android:name="android.test.runner"/>
+    </application>
+</manifest>
